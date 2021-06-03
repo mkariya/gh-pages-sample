@@ -20,6 +20,12 @@ div#type_a {
     max-width: 100%;
     height: auto;
 }
+div#global_navi {
+    display: none;
+}
+div#pankuzu {
+    display: none;
+}
 div#pankuzu_bun {
     max-width: 100%;
     padding: 0;
@@ -30,6 +36,9 @@ div#pankuzu_bun {
 #title_logo {
     max-width: 100%;
     padding: 0;
+}
+#taxi_tille {
+    border: none;
 }
 .slider_back {
     max-width: 100%;
@@ -77,15 +86,55 @@ div#container, #top_menu {
 }
 
 #topics_waku ul li {
-    max-width: 67% !important;
+    max-width: 70% !important;
     width: 100% !important;
-    padding: 0 !important;
-    background: url(../images/nav/li_info.jpg) no-repeat !important;
+    padding: 3% 0 !important;
     padding-left: 23% !important;
+    background: url(../images/nav/li_info.jpg) no-repeat !important;
+    background-size: 21%,5% !important;
+    background-position: left !important;
+}
+#topics_waku ul li.tpc{
+background:url(../images/nav/li_topics.jpg) no-repeat !important;
     background-size: 21%,5% !important;
     background-position: left !important;
 }
 
+#topics_waku ul li.pre{
+background:url(../images/nav/li_pre.jpg) no-repeat !important;
+    background-size: 21%,5% !important;
+    background-position: left !important;
+}
 
+#topics_waku ul li.sho{
+background:url(../images/nav/li_sho.jpg) no-repeat !important;
+    background-size: 21%,5% !important;
+    background-position: left !important;
+}
+
+#topics_waku ul li.low{
+background:url(../images/nav/li_low.jpg) no-repeat !important;
+    background-size: 21%,5% !important;
+    background-position: left !important;
+}
+
+#topics_waku ul li.info{
+background:url(../images/nav/li_info.jpg) no-repeat !important;
+    background-size: 21%,5% !important;
+    background-position: left !important;
+}
+
+div#top_menu {
+    padding: 0;
+    margin: 0;
+}
+div#type_a {
+    margin: 0;
+    margin-right: 3%;
+}
+div#top_menu > div {
+    display: inline-block;
+    width: 45%;
+}
 
 }
