@@ -2,12 +2,12 @@
 <html>
 <head>
 <meta charset="utf-8">
-<meta name="robots" content="noindex">
-<!-- <meta name="viewport" content="width=device-width"> -->
+<meta name="robots" content="noindex"><!-- vacan追加0 -->
 <meta name="keywords" content="IP無線,デジタル無線,タクシー配車システム,配車業務自動化,CTI電話受付,GPS-AVM,デンソーテン" lang="ja" xml:lang="ja" />
 <meta name="description" content="ニーズにあわせてシステム構築・グレードアップができるデンソーテンのタクシー配車システム。安全・確実・スピーディな配車でお客様の満足度もアップ。" lang="ja" xml:lang="ja" />
 <link rel="stylesheet" type="text/css" href="./css/import.css" media="all" />
-<link rel="stylesheet" type="text/css" href="./css/add.css" media="all" />
+<link rel="stylesheet" type="text/css" href="./css/jquery.fatNav.css" media="all" /><!-- vacan追加1 -->
+<link rel="stylesheet" type="text/css" href="./css/add.css" media="all" /><!-- vacan追加2 -->
 <title>タクシー配車システム | デンソーテン</title>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script type="text/javascript" src="js/ua.check.js"></script>
@@ -48,7 +48,7 @@ $(function(){
 </head>
 <body>
 <!-- Google Tag Manager -->
-<!-- vacan -- 
+<!-- vacan一時削除 -- 
 <noscript>
 <iframe src="//www.googletagmanager.com/ns.html?id=GTM-QLCP" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script>
@@ -56,7 +56,7 @@ $(function(){
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-QLCP');
 </script>
--- vacan -->
+-- vacan一時削除 -->
 <!-- End Google Tag Manager -->
 <div id="header">
 
@@ -81,6 +81,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.goog
 <div id="taxi_tille">
 <div id="title_logo"><a href="https://www.denso-ten.com/jp/c-system/"><img src="images/title.jpg" alt="タクシー配車システム" width="143" height="14" vspace="8" class="rollover" border="0" /></a></div>
 </div>
+<!-- <p class="gmenu-btn" data-name="menu-tgl"><span></span></p> -->
 <!--グローバルメニュー-->
 <div id="global_navi">
 <div id="nav">
@@ -129,12 +130,46 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.goog
 </ul>
 </div>
 </div><!--global_navi-->
+
+
+      <div class="fat-nav">
+        <nav class="fat-nav__wrapper">
+          <ul class="cf">
+            <li><a href="./haisha.html">コンセプト</a></li>
+            <li><a href="./neo/index.html">車載タブレット用システム</a></li>
+            <li><a href="./type_a/tokucho.html">タクシー配車システム</a></li>
+            <li><a href="./cloud/tokucho.html">クラウドサービス</a></li>
+            <li><a href="./ai/index.html">AI需要予測サービス</a></li>
+            <li><a href="./invehicle/index.html">車載機器</a></li>
+            <li><a href="./toiawase/index.html">お客様サポート</a></li>
+          </ul>
+
+
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<form name="SS_searchForm" id="SS_searchForm" action="https://search.denso-ten.com/search" method="get" enctype="application/x-www-form-urlencoded" class="search_container">
+		<div class="search_element"><input name="query" type="text" id="SS_searchQuery" value="" size="30" class="searchtext" maxlength="100" autocomplete="off">
+		<input type="hidden" name="site" value="B1HKFMJT"><input type="hidden" name="charset" value="UTF-8"><input type="hidden" name="group" value="1"><input type="hidden" name="design" value="1">
+		<input type="submit" value="&#xf002">
+		</div>
+	</form>
+<ul class="mini">
+<li><a href="https://www.denso-ten.com">Global</a></li>
+<li><a href="https://www.denso-ten.com/cn/">Chinese</a></li>
+<li><a href="https://www.denso-ten.com/jp/sitemap/">サイトマップ</a></li>
+</ul>
+
+        </nav>
+      </div>
+
+
+
 <!--パンくずリスト-->
 <div id="pankuzu">
 <div id="pankuzu_bun"></div>
 </div>
 
 <!--TOP-->
+<!-- ↓vacan編集↓ --> 
 <div class="slider_back">
 	<a href="./type_c/index.html">
 <div class="slider">
@@ -151,6 +186,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.goog
 <!-- vacan <a href="./neo/index.html"><img class="top_image" src="images/futurelink.png" alt="futurelink"></a> -- vacan -->
 
 </div>
+<!-- ↑vacan編集↑ -->
 
 <!--Main 基本CSS-->
 <div id="back">
@@ -159,7 +195,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.goog
 <div id="top_menu">
 <div id="type_a"><a href="type_a/tokucho.html"><img src="./images/nav/type_a_top.jpg"></a></div>
 <div id="type_s"><a href="type_s/tokucho.html"><img src="./images/nav/type_s_top.jpg"></a></div>
-<!-- <div id="type_l"><a href="cloud/tokucho.html"><img src="./images/nav/cloud_top.jpg"></a></div> -->
+<!-- vacan 編集 <div id="type_l"><a href="cloud/tokucho.html"><img src="./images/nav/cloud_top.jpg"></a></div> -->
 </div>
 
 <div id="type3"><a href="./hikaku.html"><img src="./images/nav/3type.jpg"></a></div>
@@ -240,6 +276,13 @@ document.write(unescape("%3Cscript src='" + document.location.protocol + "//log.
 analyze2('GOWAF6yR8igvITDCYAmuKfrCF7agTtjh');
 </script>
 -- vacan -->
+<script type="text/javascript" src="js/jquery.fatNav.min.js"></script><!-- vacan追加3 -->
+<script>
+// vacan追加4
+$(function() {
+    $.fatNav();
+});
+</script>
 </body>
 
 </html>

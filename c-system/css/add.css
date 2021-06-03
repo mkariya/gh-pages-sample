@@ -17,7 +17,137 @@ div#type_a {
 img.sp {
     display: none;
 }
+@media screen and (min-width: 768px) {
+.fat-nav {
+    display: none !important;
+}
+}
 @media screen and (max-width:767px) {
+/*
+.gmenu-btn {
+    display: table;
+    float: right;
+    width: 12%;
+    max-width: 120px;
+    overflow: hidden;
+    position: relative;
+    background: url(../images/nav/menu.png) no-repeat center top;
+    background-size: 100% auto;
+    margin-bottom: 0;
+}
+.gmenu-btn span {
+    height: 0;
+    padding-top: 91.66667%;
+}
+.gmenu-btn a, .gmenu-btn span {
+    display: table-cell;
+    width: 100%;
+    vertical-align: middle;
+}
+.open .gmenu-btn {
+    background-position: center bottom;
+}
+*/
+.fat-nav{
+float: left;
+/* width: 520px; */
+}
+#top_info{
+float: right;
+width: 308px;
+margin: 0 5% 0 0;
+}
+.mv_inner h1{
+float: left;
+width: 156px;
+margin:30px 4.23% 0 5%;
+}
+.fat-nav ul {
+    letter-spacing: -1em;
+    margin-top: 80px;
+    list-style: none;
+}
+.fat-nav ul li{
+/* display: inline-block; */
+letter-spacing: 0;
+margin: 0 28px 0 0;
+text-align: center;
+}
+.fat-nav ul li a{
+display: block;
+transition: all .3s;
+color: #fff;
+font-size: 13px; font-size: 1.3rem;
+padding: 13px 0 5px;
+letter-spacing: .1em;
+/* border-bottom: 3px solid transparent; */
+position: relative;
+text-shadow: 2px 2px 1px #000;
+}
+
+.fat-nav ul li a{
+border-bottom: 3px solid #000;
+}
+.fat-nav ul li a:hover{
+border-bottom: 3px solid #c6002f;
+}
+.fat-nav ul li a:hover {
+    text-decoration: none !important;
+}
+
+
+.search_container {
+    box-sizing: border-box;
+    position: relative;
+    border: 1px solid #999;
+    padding: 3px 10px;
+    border-radius: 20px;
+    height: 3em;
+    width: 68%;
+    overflow: hidden;
+    margin: 2.4em auto 2.2em;
+}
+.search_container input[type="text"] {
+    border: none;
+    height: 2.0em;
+    width: 100%;
+    background: none;
+    color: #fff;
+    padding-right: 3em;
+    box-sizing: border-box;
+    font-size: larger;
+}
+.search_container input[type="text"]:focus {
+  outline: 0;
+}
+.search_container input[type="submit"] {
+    cursor: pointer;
+    font-family: FontAwesome;
+    border: none;
+    background: #3879D9;
+    color: #fff;
+    position: absolute;
+    width: 3.5em;
+    height: 3.7em;
+    right: 0px;
+    top: -3px;
+    outline: none;
+}
+
+ul.mini {
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+}
+ul.mini li {
+    display: inline-block;
+}
+ul.mini li a {
+    font-size: 14px;
+}
+ul.mini li:last-child {
+    margin-right: 0;
+}
 img.pc {
     display: none;
 }
@@ -27,9 +157,10 @@ img.sp {
 #header {
     max-width: 100%;
     height: auto;
-    width: 140px;
+    width: 134px;
     float: left;
     margin-left: 2%;
+    margin-top: 8px;
 }
 div#global_navi {
     display: none;
@@ -52,12 +183,14 @@ div#pankuzu_bun {
     border: none;
     width: 144px;
     float: left;
-    margin-top: 14px;
+    margin-top: 22px;
 }
 .slider_back {
     max-width: 100%;
     height: auto;
     margin-top: 0;
+    position: static;
+    clear: both;
 }
 h1#top {
     position: static;
