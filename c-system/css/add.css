@@ -1,0 +1,11 @@
+body {
+  // PC用の横幅を指定
+  min-width: 900px;
+}
+// スマートフォンのブレイクポイント
+@media screen and (max-width: 767px){
+  body {
+    // 初期化
+    min-width: initial;
+  }
+}

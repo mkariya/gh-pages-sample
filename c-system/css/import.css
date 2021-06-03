@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+@import "format.css";
+@import "font.css";
+@import "navi.css";
+@import "global_navi.css";
+@import "side_menu.css";
+
+
+/*crossFader*/
+
+#topv-inner{
+	width:900px;
+	margin:0 auto;
+}
+
+.crossfader{
+	position:relative;
+	height:300px;
+}
+
+.crossfader img{
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:8;
+	opacity:0;
+	cursor:pointer;
+}
+
+.crossfader .active{
+	z-index:10;
+	opacity:1.0;
+}
+
+.crossfader .last-active{
+	z-index:9;
+}
+
+.crossfader .startBtn{
+	position:absolute;
+	bottom:10px;
+	left: 10px;
+	z-index:200;
+}
+
+.crossfader .startBtn a{
+	display:block;
+	padding:3px 8px;
+	background-color:#FFF;
+}
+
+/*SyncSearchサイト内検索用*/
+
+div.SS_suggest {
+  width:200px!important;
+  font-weight: normal;
+  z-index: 100;
+  display: none;
+  position: absolute;
+  border-bottom: 1px solid #CCC;
+  border-right: 1px solid #CCC;
+  border-left: 1px solid #CCC;
+}
+
+#SS_searchForm div.SS_suggest {
+  left:auto !important;
+  margin-left:36px;
+  top:auto !important;
+  margin-top:26px;
+  text-align:left;
+}
+
+*html #SS_searchForm div.SS_suggest {
+  left:auto !important;
+  margin-left:-77px;
+}
+
+*+html #SS_searchForm div.SS_suggest {
+  left:auto !important;
+  margin-left:-77px;
+}
+
+div.SS_suggest div.SS_suggestItemOff { 
+  background-color: #FFF;
+  border-top: 1px solid #CCC;
+  border-right: 1px solid #CCC;	
+  padding: 2px 0px 2px 0px;	
+  width: 200px;
+}
+
+div.SS_suggest div.SS_suggestItemOn {
+  background-color: #ECF5FA;
+  border-top: 1px solid #CCC;
+  border-right: 1px solid #CCC;	
+  padding: 2px 0px 2px 0px;	
+  width: 200px;
+}
+
+div.SS_suggest span.SS_suggestKey {
+  font-size: 12px;
+  padding-left: 4px;
+}
+
+div.SS_suggest span.SS_suggestRate {
+  width: 200px;
+}
