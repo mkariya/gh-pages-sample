@@ -28,9 +28,9 @@
     font-size: 10px;
     position: absolute;
     left: 40%;
-    bottom:13%;
-    transform: translateY(0) translateX(-51%);
-    -webkit- transform: translateY(0) translateX(-51%);
+    bottom:14%;
+    transform: translateY(0) translateX(-52%);
+    -webkit- transform: translateY(0) translateX(-52%);
 }
 .home .hamburger:after,
 .hamburger.active:after{
