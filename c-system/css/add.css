@@ -1,11 +1,91 @@
-body {
-  // PC用の横幅を指定
-  min-width: 900px;
+.slider img {
+  max-width: 100%;
 }
-// スマートフォンのブレイクポイント
-@media screen and (max-width: 767px){
-  body {
-    // 初期化
-    min-width: initial;
-  }
+div#top_menu {
+    background: none;
+    padding-top: 40px;
+    margin-bottom: -40px;
+}
+div#top_menu > div {
+    position: static;
+    display: inline-block;
+}
+div#type_a {
+    margin-right: 30px;
+    margin-left: 15px;
+}
+
+@media screen and (max-width:767px) {
+#header {
+    max-width: 100%;
+    height: auto;
+}
+div#pankuzu_bun {
+    max-width: 100%;
+    padding: 0;
+}
+#nav {
+    display: none;
+}
+#title_logo {
+    max-width: 100%;
+    padding: 0;
+}
+.slider_back {
+    max-width: 100%;
+    height: auto;
+}
+h1#top {
+    position: static;
+    width: 100%;
+    height: auto;
+}
+#header h1 a {
+    width: 100%;
+    height: initial;
+}
+#header ul.headlist {
+    position: static;
+    left: 0;
+    top: 0;
+    display: none;
+}
+#header .search-box {
+    position: static;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: initial;
+    display: none;
+}
+img {
+  max-width: 100%;
+}
+div#container, #top_menu {
+    max-width: 100%;
+    height: auto;
+}
+#type_a, #type_s {
+    position: static;
+    top: 0;
+    left: 0;
+}
+#topics_waku {
+    max-width: 100%;
+}
+#topics_waku ul li {
+}
+
+#topics_waku ul li {
+    max-width: 67% !important;
+    width: 100% !important;
+    padding: 0 !important;
+    background: url(../images/nav/li_info.jpg) no-repeat !important;
+    padding-left: 23% !important;
+    background-size: 21%,5% !important;
+    background-position: left !important;
+}
+
+
+
 }
