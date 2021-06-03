@@ -151,5 +151,17 @@ div#top_menu > div {
     display: inline-block;
     width: 45%;
 }
+.gototop ul li:last-child {
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.footerlink {
+    padding: 15px 15px 6px;
+}
+div#footer {
+    padding-bottom: 6px;
+}
+
+
 
 }
