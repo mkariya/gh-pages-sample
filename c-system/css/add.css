@@ -14,11 +14,22 @@ div#type_a {
     margin-right: 30px;
     margin-left: 15px;
 }
-
+img.sp {
+    display: none;
+}
 @media screen and (max-width:767px) {
+img.pc {
+    display: none;
+}
+img.sp {
+    display: block;
+}
 #header {
     max-width: 100%;
     height: auto;
+    width: 140px;
+    float: left;
+    margin-left: 2%;
 }
 div#global_navi {
     display: none;
@@ -39,10 +50,14 @@ div#pankuzu_bun {
 }
 #taxi_tille {
     border: none;
+    width: 30%;
+    float: left;
+    margin-top: 14px;
 }
 .slider_back {
     max-width: 100%;
     height: auto;
+    margin-top: 0;
 }
 h1#top {
     position: static;
